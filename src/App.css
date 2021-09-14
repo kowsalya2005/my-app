@@ -1,55 +1,179 @@
-.pagination {
-  margin: auto;
-  display: flex;
-  list-style: none;
-  outline: none;
-  margin-left: 1000px !important;
-  margin-top: 20px !important;
-  border-radius: 5px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
 }
-.pagination > .active > a {
-  background-color: #47ccde;
-  border-color: #47ccde;
-  color: #fff;
-  border-radius: 5px;
-}
-.pagination > li > a {
-  border: 1px solid #47ccde;
-  padding: 5px 10px;
-  outline: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
-  background-color: #47ccde;
-  border-color: #47ccde;
-  outline: none;
-  border-radius: 5px;
-}
-.pagination > li > a,
-.pagination > li > span {
-  color: #47ccde;
-}
-.pagination > li:first-child > a,
-.pagination > li:first-child > span,
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
-  border-radius: unset;
-  border-radius: 5px;
-}
-body{
-  font-family: 'Open Sans';
-  width: 100%;
-}
-.text{
+
+.nav_bar{
+  background-color: rgb(56, 204, 192);
+  height: 25px;
   text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  color: black;
 }
-.table {
-    margin: auto;
-    border: 1px solid #ededed !important;
+
+.form_group{
+  margin-top: 18px;
+  margin-left: 550px;
+  margin-right: 520px;
+  background-color: #fbfbfb;
+  box-shadow: 2px 2px 10px #a3a1a1;
+  padding: 20px;
+}
+
+.input_label{
+  margin-top: 5px;
+  width: 250px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+select
+{
+  margin-top: 5px;
+  width: 250px;
+  height: 24px;
+  display: inline-block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+label{
+ color: #808080;
+ font-size: 14px;
+}
+.button_label{
+  padding: 7px;
+  font-size:16px;
+  margin-top: 7px;
+  /* margin-left: 76px; */
+  width: 250px;
+  background-color: rgb(182, 127, 25);
+  border:none;
+  box-shadow: 1px 1px 2px #a3a1a1;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+button:hover{
+  background-color: #15d2c8;
+}
+.input_checkbox:hover{
+  color: black;
+}
+#showDetails{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+table td {
+  padding-left: 10px;
+}
+
+table th {
+  text-align: left;
+}
+.nav_header{
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  font-weight: 600;
+  color: black;
+}
+.sub_title
+{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  /* padding: 15px; */
+}
+.mt_5
+{
+  margin-top: 5px !important;
+}
+.mt_20
+{
+  margin-top: 20px !important;
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ml_15{
+  margin-left: 15px !important;
+}
+.link_color{
+  color: orange;
+}
+.button_flex{
+  padding: 7px;
+  font-size:16px;
+  margin-top: 7px;
+  width: 122px;
+  background-color: rgb(182, 127, 25);
+  border:none;
+  box-shadow: 1px 1px 2px #a3a1a1;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
+.ml_5{
+  margin-left: 5px !important;
+}
+.input_box{
+  margin-bottom: 20px;
+	font-size: 20px;
+	color: gray;
+  margin-top: 10px;
+}
+.digit-group {
+		width: 30px;
+		height: 50px;
+		border: none;
+		line-height: 50px;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		color: black;
+		margin: 0 2px;
+		padding: 0 5px;
+		color: black;
+		font-size: 24px;
+    background-color: gray;
+    opacity: 0.5;
+    font-weight: 700;
+}
+.error{
+  color: red;
+  padding: 3px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+  opacity: 0.5;
+}
+input[type="file"] {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  color:orange;
+}
+.mt_21 {
+margin-top: 20px !important;
 }
